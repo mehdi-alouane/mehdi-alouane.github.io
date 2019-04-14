@@ -5,24 +5,48 @@
         <p class="subtitle is-4">{{ init }}</p>
         <h1 class="title is-1">{{ name }}</h1>
         <h2 class="subtitle">{{ description }}</h2>
-        <div class="button is-info">
-          <span class="icon">
-            <i class="fa fa-file"></i>
+        <a
+          :href="resume"
+          class="button is-info"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+          <span
+            class="icon">
+            <i
+              class="fa fa-file"
+            ></i>
           </span>
           <span>Resume</span>
-        </div>
-        <div class="button">
-          <span class="icon">
-            <i class="fa fa-github"></i>
+        </a>
+        <a
+          :href="github"
+          class="button"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+          <span
+            class="icon">
+            <i
+              class="fa fa-github"
+            ></i>
           </span>
           <span>Github</span>
-          </div>
-        <div class="button">
-          <span class="icon">
-            <i class="fa fa-linkedin"></i>
+          </a>
+        <a
+          :href="linkedin"
+          class="button"
+          target="_blank"
+          rel="noopener noreferrer"
+          >
+          <span
+            class="icon">
+            <i
+              class="fa fa-linkedin"
+            ></i>
           </span>
           <span>LinkedIn</span>
-        </div>
+        </a>
       </div>
     </div>
   </div>
@@ -31,6 +55,11 @@
 <script>
 export default {
   name: 'card',
+  data: () => ({
+    resume: 'https://drive.google.com/open?id=11z9wH2FU1mRBdRp5-gaRPH5BdIrTtLwz',
+    github: 'https://github.com/mehdi-alouane',
+    linkedin: 'https://www.linkedin.com/in/mehdi-alouane'
+  }),
   props: {
     init: String,
     name: String,
