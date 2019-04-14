@@ -1,0 +1,19 @@
+{
+  "name": "mehdi-alouane.github.io",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "git@github.com:mehdi-alouane/mehdi-alouane.github.io.git",
+  "author": "mehdi-alouane <pro4medo@gmail.com>",
+  "license": "MIT",
+  "scripts": {
+    "build": "parcel build ./src/index.html --target browser -d . --out-file index.html --no-cache --no-source-maps"
+  },
+  "dependencies": {
+    "vue": "^2.6.10",
+    "vue-hot-reload-api": "^2.3.3"
+  },
+  "devDependencies": {
+    "@vue/component-compiler-utils": "^3.0.0",
+    "vue-template-compiler": "^2.6.10"
+  }
+}
