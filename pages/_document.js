@@ -38,6 +38,7 @@ export default function Document() {
             }}
           />
       </body>
+      <script async src="https://cdn.seline.so/seline.js"></script>
     </Html>
   );
 }
