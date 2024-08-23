@@ -1,4 +1,5 @@
 import { Moon, Menu } from "lucide-react";
+import { Head } from "next/document";
 
 const technologies = {
   Backend: [
