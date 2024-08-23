@@ -10,12 +10,12 @@ export default function Document() {
         <link rel="canonical" href="https://mehdi-alouane.github.io" />
         <meta property="og:title" content="Mehdi Alouane | Full Stack Developer" />
         <meta property="og:description" content="Portfolio website of Mehdi Alouane, showcasing skills in full stack and backend development." />
-        <meta property="og:image" content="public/img.jpeg" />
+        <meta property="og:image" content="/images/dev_image.jpeg" />
         <meta property="og:url" content="https://mehdi-alouane.github.io" />
         <meta name="twitter:card" content="summary_large_image" />
         <meta name="twitter:title" content="Mehdi Alouane | Full Stack Developer" />
         <meta name="twitter:description" content="Portfolio website of Mehdi Alouane, full stack developer." />
-        <meta name="twitter:image" content="public/img.jpeg" />
+        <meta name="twitter:image" content="/images/dev_image.jpeg" />
       </Head>
       <body>
         <Main />
