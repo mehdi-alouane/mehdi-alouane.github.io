@@ -5,7 +5,6 @@ export default function Document() {
   return (
     <Html lang="en">
       <Head>
-        <title>Mehdi Alouane | Full stack developer</title>
 
         <meta name="description" content="Portfolio website Mehdi Alouane, full stack developer, backend developer" />
         <link rel="canonical" href="https://mehdi-alouane.github.io" />
