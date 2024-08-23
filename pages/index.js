@@ -37,7 +37,7 @@ const technologies = {
 const TechSection = ({ title, items }) => (
   <div className="mb-8">
     <h4 className="font-semibold mb-2">{title}</h4>
-    <div className="grid grid-cols-4 gap-4">
+    <div className="grid grid-cols-2 sm:grid-cols-3 md:grid-cols-4 gap-4">
       {items.map((tech) => (
         <div
           key={tech.name}
@@ -65,8 +65,8 @@ const TechSection = ({ title, items }) => (
 
 export default function Home() {
   return (
-    <div className="bg-emerald-500/10">
-      <div className="max-w-5xl mx-auto p-6 font-sans">
+    <div className="bg-emerald-500/10 min-h-screen">
+      <div className="max-w-5xl mx-auto p-4 sm:p-6 font-sans">
         <header className="flex justify-between items-center mb-8">
           <div className="w-8 h-8 bg-black text-white flex items-center justify-center font-bold">
             A
@@ -77,13 +77,13 @@ export default function Home() {
           </div>
         </header>
         <main>
-          <div className="flex justify-between items-start mb-12">
-            <div>
-              <h1 className="text-3xl font-bold mb-2">
+          <div className="flex flex-col md:flex-row justify-between items-center md:items-start mb-12">
+            <div className="text-center md:text-left mb-6 md:mb-0">
+              <h1 className="text-2xl sm:text-3xl font-bold mb-2">
                 Mehdi <span className="text-emerald-500">Alouane</span>,
               </h1>
-              <h2 className="text-xl mb-4">Full Stack Developer</h2>
-              <p className="text-gray-600 max-w-lg">
+              <h2 className="text-lg sm:text-xl mb-4">Full Stack Developer</h2>
+              <p className="text-gray-600 max-w-lg mx-auto md:mx-0">
                 A self-taught software developer, I create
                 <span className="text-emerald-500 ml-1 mr-2 underline font-bold">
                   Backend Systems
@@ -99,7 +99,7 @@ export default function Home() {
                 .
               </p>
             </div>
-            <div className="w-24 h-24 bg-gray-200 rounded-full overflow-hidden">
+            <div className="w-24 h-24 bg-gray-200 rounded-full overflow-hidden flex-shrink-0">
               {/* Placeholder for avatar */}
               <div className="w-full h-full flex items-center justify-center text-4xl">
                 😊
@@ -119,7 +119,7 @@ export default function Home() {
               ))}
             </div>
           </section>
-          <section className="bg-gray-50 p-6 rounded-lg">
+          <section className="bg-gray-50 p-4 sm:p-6 rounded-lg">
             <h3 className="text-sm font-semibold text-gray-500 mb-4">
               My Skills
             </h3>
