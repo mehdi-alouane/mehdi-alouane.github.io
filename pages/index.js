@@ -141,6 +141,14 @@ export default function Home() {
               <TechSection key={category} title={category} items={techs} darkMode={darkMode} />
             ))}
           </section>
+          <footer className="mt-12">
+            <h4 className={`text-lg font-semibold ${darkMode ? 'text-white' : 'text-black'} mb-4`}>Find Me Online</h4>
+            <div className="flex gap-4">
+              <a href="https://github.com/mehdi-alouane" target="_blank" rel="noopener noreferrer" className={`${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>GitHub</a>
+              <a href="https://linkedin.com/in/mehdi-alouane" target="_blank" rel="noopener noreferrer" className={`${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>LinkedIn</a>
+              <a href="https://drive.google.com/file/d/1tVJcs0Mmo8VOUZRyMf3NrFXVaIhU6nYi/view?usp=sharing" target="_blank" className={`${darkMode ? 'text-gray-300' : 'text-gray-600'}`}>Download Resume</a>
+            </div>
+          </footer>
         </main>
       </div>
     </div>
