@@ -9,7 +9,6 @@ export default function Document() {
 
         <meta name="description" content="Portfolio website Mehdi Alouane, full stack developer, backend developer" />
         <link rel="canonical" href="https://mehdi-alouane.github.io" />
-
         <meta property="og:title" content="Mehdi Alouane | Full Stack Developer" />
         <meta property="og:description" content="Portfolio website of Mehdi Alouane, showcasing skills in full stack and backend development." />
         <meta property="og:image" content="/path/to/image.jpg" />
