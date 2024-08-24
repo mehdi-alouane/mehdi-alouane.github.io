@@ -66,7 +66,7 @@ const TechSection = ({ title, items, darkMode }) => (
 );
 
 export default function Home() {
-  const [darkMode, setDarkMode] = useState(false);
+  const [darkMode, setDarkMode] = useState(true);
 
   const toggleDarkMode = () => {
     setDarkMode(!darkMode);
