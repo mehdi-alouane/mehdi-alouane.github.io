@@ -38,7 +38,7 @@ export default function Document() {
             }}
           />
       </body>
-      <Script async src="https://cdn.seline.so/seline.js" />
+      <Script src="/sln.js" data-api-host="/_sln" async />
     </Html>
   );
 }
