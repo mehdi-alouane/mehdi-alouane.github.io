@@ -38,7 +38,6 @@ export default function Document() {
             }}
           />
       </body>
-      <Script src="/sln.js" data-api-host="/_sln" async />
     </Html>
   );
 }
