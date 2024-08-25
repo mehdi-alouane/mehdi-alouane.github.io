@@ -16,6 +16,8 @@ export default function Document() {
         <meta name="twitter:title" content="Mehdi Alouane | Full Stack Developer" />
         <meta name="twitter:description" content="Portfolio website of Mehdi Alouane, full stack developer." />
         <meta name="twitter:image" content="/images/dev_image.jpeg" />
+
+        <script defer src="https://cloud.umami.is/script.js" data-website-id="d8ffb960-0066-4efc-ab07-95b4a1cfc5a9"></script>
       </Head>
       <body>
         <Main />
